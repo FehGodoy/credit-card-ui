@@ -108,7 +108,7 @@ a {
 
 @media screen and (max-width: 650px) {
   .boxFrontCard{
-    height: 195px!important;
+    height: 185px!important;
   }
   .boxFrontCard .headerCard img {
     width: 50px;
