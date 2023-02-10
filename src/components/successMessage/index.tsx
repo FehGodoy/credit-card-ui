@@ -14,7 +14,7 @@ export default function SuccessMessage({setMessageSuccess}:SuccessMessageProps) 
     initial={{y: "50%", opacity:0, scale: 0.5}}
     animate={{y:"0",  opacity:1, scale:1}}
     transition={{duration: 0.4, ease: 'easeIn'}}
-    className="mainMotion flex items-center"
+    className="mainMotion flex items-center justify-center"
     >
       <Styled.boxMessageValidate className='flex items-center justify-center'>
           <div className="boxAll">
