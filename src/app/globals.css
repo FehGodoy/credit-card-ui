@@ -107,23 +107,26 @@ a {
 }
 
 @media screen and (max-width: 650px) {
+  .boxFrontCard{
+    height: 195px!important;
+  }
   .boxFrontCard .headerCard img {
     width: 50px;
   }
   .boxFrontCard .boxNumber {
-    bottom: 115px;
+    bottom: 60px;
   }
   .boxFrontCard .boxNumber span {
     font-size: 1rem;
   }
   .boxFrontCard .boxNamePerson {
-    bottom: 95px;
+    bottom: 40px;
   }
   .boxFrontCard .boxNamePerson span {
     font-size: 0.6rem;
   }
   .boxFrontCard .validateData {
-    bottom: 95px;
+    bottom: 40px;
     right: 15px;
   }
   .boxFrontCard .validateData span {
